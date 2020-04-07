@@ -1,5 +1,5 @@
 # ESAPI-CBCTmoves
-ESAPI standalone that mines Aria for all CBCT moves
+ESAPI standalone that mines Aria for all CBCT moves for selected patients.
 
 This standalone Eclipse Scripting Application PlugIn (ESAPI) code for C# sharp was developed to allow CBCT online verification moves to be determined on mass for patients very quickly. It accesses 1 patient plan at a time, skips various courses and plans that don't meet strict criteria then determines all the CBCT imaging moves for that plan until no patients and plans remain. The code returns results in .csv format and includes but is not limited to vertical, lateral and longitudinal shifts for each registration. 
 
